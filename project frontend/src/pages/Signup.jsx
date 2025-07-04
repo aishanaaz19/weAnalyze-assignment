@@ -17,7 +17,7 @@ const Signup = () => {
     setSuccess("");
 
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/register", {
+      const res = await axios.post("https://weanalyze-assignment.onrender.com//api/auth/register", {
         username,
         email,
         password,
@@ -57,7 +57,7 @@ const Signup = () => {
           onChange={(e) => setEmail(e.target.value)}
           className="w-[344px] h-[50px] px-4 py-2 mb-6 border border-gray-400 rounded-md text-base"
         />
-        
+
         <input
           type="password"
           placeholder="Password"

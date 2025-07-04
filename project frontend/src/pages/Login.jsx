@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/login", {
+      const res = await axios.post("https://weanalyze-assignment.onrender.com//api/auth/login", {
         email: emailOrUsername, // assuming email login
         password,
       });
@@ -38,7 +38,7 @@ const Login = () => {
 
         <input
           type="text"
-          placeholder="Email or Username"
+          placeholder="Email"
           value={emailOrUsername}
           onChange={(e) => setEmailOrUsername(e.target.value)}
           className="w-full px-4 py-4 mb-4 border border-gray-400 rounded-md text-base"
