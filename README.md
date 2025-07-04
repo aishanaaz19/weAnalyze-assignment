@@ -1,6 +1,6 @@
-# 🛠️ Helpdesk Ticketing System
+# Assignment for weAnalyz
 
-A full-stack web application for managing support tickets, built with **React.js (Vite)** and **Express.js**, styled using **Tailwind CSS**, and connected to **MongoDB** for data persistence.
+### Built with **React.js (Vite)** and **Express.js**, styled using **Tailwind CSS**, and connected to **MongoDB** for data persistence.
 
 ---
 
