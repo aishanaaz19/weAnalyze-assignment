@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://weanalyze-assignment.onrender.com//api/auth/login", {
+      const res = await axios.post("https://weanalyze-assignment.onrender.com/api/auth/login", {
         email: emailOrUsername, // assuming email login
         password,
       });
