@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://we-analyze-assignment-go7b.vercel.app/",
+  origin: "https://we-analyze-assignment-go7b.vercel.app",
   credentials: true,
 }));
 app.use(express.json());
